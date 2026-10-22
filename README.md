@@ -1,4 +1,8 @@
 # JCR_SOEM_linux
+
+https://www.applied-motion.com/s/jcr-series
+
+
 Example programs for JCR in CST,CSV,CSP,PT,PV,PP mode using SOEM 
 
 

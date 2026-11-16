@@ -26,9 +26,9 @@ Each sample brings a single JCR joint to OPERATIONAL, enables it, runs a mode-ap
 | Cyclic Synchronous Position (CSP) | 8 | [`csp_example_jcr.c`](csp_example_jcr.c) | 1 ms | ✅ tested |
 | Cyclic Synchronous Velocity (CSV) | 9 | [`csv_example_jcr.c`](csv_example_jcr.c) | 500 µs | ✅ tested |
 | Cyclic Synchronous Torque (CST) | 10 | [`cst_example_jcr.c`](cst_example_jcr.c) | 500 µs | ✅ tested |
-| Profile Position (PP) | 1 | — | — | 🚧 planned |
-| Profile Velocity (PV) | 3 | — | — | 🚧 planned |
-| Profile Torque (PT) | 4 | — | — | 🚧 planned |
+| Profile Position (PP) | 1 | [`pp_example_jcr.c`](pp_example_jcr.c) | 10 ms | ✅ tested |
+| Profile Velocity (PV) | 3 | [`pv_example_jcr.c`](pv_example_jcr.c) | 10 ms | ✅ tested |
+| Profile Torque (PT) | 4 | [`pt_example_jcr.c`](pt_example_jcr.c) | 10 ms | ✅ tested |
 
 > **Note:** CSP is validated at 1 ms. Shorter CSP cycles have not been tested on this drive — CSV/CST run safely at 500 µs.
 
